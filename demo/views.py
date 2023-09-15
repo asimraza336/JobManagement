@@ -176,12 +176,6 @@ SKILLS=['Developer', 'Engineer', 'Software Developer', 'Software Engineer', 'Jun
 #           'WooCommerce', 'WordPress', 'WordPress Plugins', 'WordPress Theme Development', 'XML', 'Youtube API']
 from django.http import HttpResponse
 def ajaxcall(request):
-    print('asim')
-    print('asim')
-    print('asim')
-    print('asim')
-    print('asim')
-    print('asim')
     
     websites = ['montana.edu', 'stripe.com', '1800flowers.com', 'bitsgap.com', 'pointclickcare.com', 'brothers-brick.com', 
 'sevenrooms.com', '2ndswing.com', '2ndwatch.com', '3boxlabs.com', '3dsystems.com', 'coresystems.hu', '3i-infotech.com',
