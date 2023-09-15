@@ -1,0 +1,15 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>
+            Hello 
+        </h1>
+        <form method="POST">
+            {% csrf_token %} 
+            <input type="text" name="company" required />
+            <input type="submit" >
+
+        </form>
+    </body>
+</html>
